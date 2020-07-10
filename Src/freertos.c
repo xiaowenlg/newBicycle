@@ -276,7 +276,7 @@ void Uart_TFT_CallBack(void const * argument)
 		 // Uart_printf(&huart2, "Uart2 is responsed\r\n"); //等待蓝牙信息
 
 	  }
-	  if (tick%2==0)   //请求对方发送数据
+	  if (tick%2==0)   //200ms发送一次数据
 	  {
 		 //SendCom(REQUEST_DATA);
 		  //Uart_printf(&huart2, "xiaowenlg=%d\r\n",tick);
