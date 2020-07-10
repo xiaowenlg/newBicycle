@@ -1,4 +1,4 @@
-﻿生成启动时间为 2020/7/10 20:35:42。
+﻿生成启动时间为 2020/7/10 21:09:16。
      1>项目“D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\InterconnectionBike.vcxproj”在节点 2 上(Clean 个目标)。
      1>CoreClean:
          "C:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /clean "D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\InterconnectionBike.vcxproj" "/solution:D:\Git\newBicycle\InterconnectionBike\InterconnectionBike.sln"  "/config:Release" "/platform:Win32"
@@ -88,4 +88,4 @@
 
 生成成功。
 
-已用时间 00:00:01.45
+已用时间 00:00:01.43
