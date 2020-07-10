@@ -1,0 +1,91 @@
+﻿生成启动时间为 2020/7/10 20:35:42。
+     1>项目“D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\InterconnectionBike.vcxproj”在节点 2 上(Clean 个目标)。
+     1>CoreClean:
+         "C:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /clean "D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\InterconnectionBike.vcxproj" "/solution:D:\Git\newBicycle\InterconnectionBike\InterconnectionBike.sln"  "/config:Release" "/platform:Win32"
+         VisualGDB: Run "C:\SysGCC\arm-eabi\bin\make.exe  CONFIG=Release clean -j8" in directory "D:\Git\newBicycle\InterconnectionBike\InterconnectionBike" on local computer
+         cmd /C del /S /Q Release
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\adc.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\adc.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\application.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\application.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\APPTooL.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\APPTooL.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\cmsis_os.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\cmsis_os.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\croutine.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\croutine.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\dwt_stm32_delay.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\dwt_stm32_delay.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\event_groups.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\event_groups.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\freertos.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\freertos.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\gpio.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\gpio.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\heap_4.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\heap_4.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\InterconnectionBike.bin
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\InterconnectionBike.elf
+         D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\InterconnectionBike.log
+         另一个程序正在使用此文件，进程无法访问。
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\list.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\list.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\main.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\main.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\port.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\port.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\queue.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\queue.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\startup_stm32f103xb.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\startup_stm32f103xb.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_adc.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_adc.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_adc_ex.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_adc_ex.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_cortex.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_cortex.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_dma.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_dma.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_flash.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_flash.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_flash_ex.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_flash_ex.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_gpio.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_gpio.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_gpio_ex.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_gpio_ex.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_msp.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_msp.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_pwr.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_pwr.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_rcc.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_rcc.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_rcc_ex.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_rcc_ex.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_tim.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_tim.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_tim_ex.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_tim_ex.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_uart.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_uart.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_usart.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_hal_usart.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_it.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\stm32f1xx_it.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\system_stm32f1xx.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\system_stm32f1xx.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\tasks.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\tasks.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\tim.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\tim.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\timers.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\timers.o
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\usart.dep
+         删除文件 - D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\Release\usart.o
+     1>已完成生成项目“D:\Git\newBicycle\InterconnectionBike\InterconnectionBike\InterconnectionBike.vcxproj”(Clean 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.45
