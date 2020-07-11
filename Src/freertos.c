@@ -320,7 +320,7 @@ void SendMessageToTFT(uint16_t address)
 	TFT_SendArray[2] = SportInfo_Get.tim / 3600;			//时
 	TFT_SendArray[3] = SportInfo_Get.tim % 3600 / 60;		//分
 	TFT_SendArray[4] = SportInfo_Get.tim % 60;				//秒
-	TFT_SendArray[5] = SportInfo_Get.count * PERIMETER;		//路程=周长*圈数
+	TFT_SendArray[5] = SportInfo_Get.count;		//路程=周长*圈数
 	TFT_SendArray[6] = SportInfo_Get.hot;					//热量
 	//
 	TFT_SendArray[8] = SportInfo_Get.freq;
@@ -353,8 +353,8 @@ void SendDataToFrend() //发送数据到请求端
 	sendarray[6] = ((uint16_t)(SportInfo_Get.freq*(PERIMETER)) * 60) >> 8;
 	sendarray[7] = ((uint16_t)(SportInfo_Get.freq*(PERIMETER)) * 60) & 0x00ff;
 	//路程
-	sendarray[8] = ((uint16_t)(SportInfo_Get.count * PERIMETER)) >> 8;
-	sendarray[9] = ((uint16_t)(SportInfo_Get.count * PERIMETER)) & 0x00ff;
+	sendarray[8] = ((uint16_t)(SportInfo_Get.count)) >> 8;
+	sendarray[9] = ((uint16_t)(SportInfo_Get.count)) & 0x00ff;
 	
 	HAL_UART_Transmit(UART_CONNECTION, sendarray, 10, 0xffff);
 
